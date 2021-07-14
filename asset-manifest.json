@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/nadia-portfolio/static/css/main.68360371.chunk.css",
+    "main.js": "/nadia-portfolio/static/js/main.11579793.chunk.js",
+    "main.js.map": "/nadia-portfolio/static/js/main.11579793.chunk.js.map",
+    "runtime-main.js": "/nadia-portfolio/static/js/runtime-main.debeefe8.js",
+    "runtime-main.js.map": "/nadia-portfolio/static/js/runtime-main.debeefe8.js.map",
+    "static/css/2.3d304b90.chunk.css": "/nadia-portfolio/static/css/2.3d304b90.chunk.css",
+    "static/js/2.e0677d60.chunk.js": "/nadia-portfolio/static/js/2.e0677d60.chunk.js",
+    "static/js/2.e0677d60.chunk.js.map": "/nadia-portfolio/static/js/2.e0677d60.chunk.js.map",
+    "index.html": "/nadia-portfolio/index.html",
+    "static/css/2.3d304b90.chunk.css.map": "/nadia-portfolio/static/css/2.3d304b90.chunk.css.map",
+    "static/css/main.68360371.chunk.css.map": "/nadia-portfolio/static/css/main.68360371.chunk.css.map",
+    "static/js/2.e0677d60.chunk.js.LICENSE.txt": "/nadia-portfolio/static/js/2.e0677d60.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/nadia-portfolio/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/landing.ca966d27.jpg": "/nadia-portfolio/static/media/landing.ca966d27.jpg",
+    "static/media/profileimg.3e3de3eb.jpg": "/nadia-portfolio/static/media/profileimg.3e3de3eb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.debeefe8.js",
+    "static/css/2.3d304b90.chunk.css",
+    "static/js/2.e0677d60.chunk.js",
+    "static/css/main.68360371.chunk.css",
+    "static/js/main.11579793.chunk.js"
+  ]
+}
