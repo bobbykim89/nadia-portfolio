@@ -12,10 +12,17 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "aos": "^2.3.4",
     "hamburger-react": "^2.4.1",
+    "hero-patterns": "^2.1.0",
+    "heropatterns-react": "^1.0.23",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-player": "^2.9.0",
     "react-scripts": "4.0.3",
+    "react-scroll-motion": "^0.2.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

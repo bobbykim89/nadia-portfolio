@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons"
-import { faEnvelopeSquare, faCat, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelopeSquare, faCat } from '@fortawesome/free-solid-svg-icons'
 import Hamburger from 'hamburger-react';
 
 export default function Navbar () {
     const [navBarOpen, setNavbarOpen] = useState (false);
     return (
-        <nav className="w-screen top-0 absolute md:sticky flex flex-wrap items-center bg-gray-800 z-50">
+        <nav id="Contact" className="w-screen top-0 absolute md:sticky flex flex-wrap items-center bg-gray-800 z-50">
             <div className="container flex flex-wrap items-center py-4 justify-between">
                 <div className="flex flex-shrink-0 mr-6">
                     <a href="#Home">
@@ -17,7 +17,7 @@ export default function Navbar () {
                     </a>
                 </div>
                 <div class="block lg:hidden">
-                    <button className="flex items-center px-3 py-4 text-xl font-bold text-yellow-400 hover:text-white" type="button" onClick={() => setNavbarOpen (!navBarOpen)}>
+                    <button className="flex items-center px-3 py-4 mr-6 text-xl font-bold text-yellow-400 hover:text-white" type="button" onClick={() => setNavbarOpen (!navBarOpen)}>
                         <Hamburger size={ 23 } toggled={ navBarOpen } toggle={ setNavbarOpen } />
                     </button>
                 </div>
@@ -35,19 +35,19 @@ export default function Navbar () {
                         <span className="inline-block lg:hidden pt-1 text-yellow-200 text-sm pr-4">
                             |
                         </span>
-                        <a href="#skills" className="block lg:inline-block text-yellow-200 text-lg hover:text-yellow-100 mr-4">
+                        <a href="#Skills" className="block lg:inline-block text-yellow-200 text-lg hover:text-yellow-100 mr-4">
                             Skills
                         </a>
                         <span className="inline-block lg:hidden pt-1 text-yellow-200 text-sm pr-4">
                             |
                         </span>
-                        <a href="works" className="block lg:inline-block text-yellow-200 text-lg hover:text-yellow-100 mr-4">
-                            My Works
+                        <a href="#Demo" className="block lg:inline-block text-yellow-200 text-lg hover:text-yellow-100 mr-4">
+                            My Demo
                         </a>
                         <span className="inline-block lg:hidden pt-1 text-yellow-200 text-sm pr-4">
                             |
                         </span>
-                        <a href="#contact" className="block lg:inline-block text-yellow-200 text-lg hover:text-yellow-100 mr-4">
+                        <a href="#Contact" className="block lg:inline-block text-yellow-200 text-lg hover:text-yellow-100 mr-4">
                             Contact
                         </a>
                     </div>

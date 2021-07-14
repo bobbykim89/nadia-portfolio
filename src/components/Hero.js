@@ -2,20 +2,21 @@ import React from 'react'
 import landing from './imgs/landing.jpg';
 
 export default function Hero() {
+
     return (
-        <div>
+        <section id="Home">
             <div className="relative pt-16 pb-16 flex content-center items-end lg:items-center justify-center"
                 style={{
-                    minHeight: "75vh"
+                    minHeight: "85vh"
                 }}>
                 <div className="absolute w-full h-full top-0 bg-fixed bg-top bg-cover" style={{ backgroundImage: `url(${landing})` }}>
-                    <span className="w-full h-full absolute opacity-20 bg-yellow-300"></span>
+                    <span className="w-full h-full absolute opacity-20 bg-yellow-300" />
                 </div>
                 <div className="container relative mx-auto">
                     <div className="items-center flex flex-wrap">
-                        <div className="w-5/6 lg:w-6/12 px-4 ml-auto mr-auto text-center p-6 bg-red-100 bg-opacity-75 rounded">
+                        <div className="w-5/6 lg:w-6/12 px-4 ml-auto mr-auto text-center p-6 bg-red-200 bg-opacity-75 rounded">
                             <div>
-                                <h1 className="text-white font-bold text-4xl lg:text-5xl">
+                                <h1 className="text-white font-bold text-4xl md:text-5xl">
                                     Hi! I'm Nadia, a <span className="text-green-600">VFX</span> Engineer!
                                 </h1>
                                 <p className="mt-4 text-lg text-red-500 font-semibold ">
@@ -29,6 +30,6 @@ export default function Hero() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
