@@ -52,13 +52,13 @@ export default function Navbar () {
                         </a>
                     </div>
                     <div className="flex flex-wrap pt-3 lg:pt-1 justify-center">
-                        <a href="linkedin.com" target="_blank" className="inline-block text-red-400 text-xl mx-2 hover:text-white">
+                        <a href="https://www.linkedin.com/in/nadia-nicolas-flores-089ba695/" target="_blank" rel="noreferrer" className="inline-block text-red-400 text-xl mx-2 hover:text-white">
                             <FontAwesomeIcon icon={ faLinkedin } />
                         </a>
                         <a href="github.com" target="_blank" className="inline-block text-red-400 text-xl mx-2 hover:text-white">
                             <FontAwesomeIcon icon={ faGithubSquare } />
                         </a>
-                        <a href="gmail.com" target="_blank" className="inline-block text-red-400 text-xl mx-2 hover:text-white">
+                        <a href="mailto:nadianic.flores@gmail.com" target="_blank" rel="noreferrer" className="inline-block text-red-400 text-xl mx-2 hover:text-white">
                             <FontAwesomeIcon icon={ faEnvelopeSquare } />
                         </a>
                     </div>

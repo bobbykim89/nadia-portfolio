@@ -1,4 +1,5 @@
 {
+  "homepage": "https://bobbykim89.github.io/nadia-portfolio/",
   "name": "nadia-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "aos": "^2.3.4",
+    "gh-pages": "^3.2.3",
     "hamburger-react": "^2.4.1",
     "hero-patterns": "^2.1.0",
     "heropatterns-react": "^1.0.23",
@@ -26,6 +28,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "cracos test",

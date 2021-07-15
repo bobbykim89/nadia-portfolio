@@ -19,13 +19,13 @@ export default function Contact() {
                         <hr className="border-4 border-yellow-500 my-4" />
                         <div className="relative flex flex-wrap text-5xl font-bold justify-start ml-2">
                             <div>
-                                <a href="linkedin.com" target="_blank" className="text-white inline-block hover:text-green-500 mr-4"><FontAwesomeIcon icon={ faLinkedin } /></a>
+                                <a href="https://www.linkedin.com/in/nadia-nicolas-flores-089ba695/" target="_blank" rel="noreferrer" className="text-white inline-block hover:text-green-500 mr-4"><FontAwesomeIcon icon={ faLinkedin } /></a>
                             </div>
                             <div>
-                                <a href="github.com" target="_blank" className="text-white inline-block hover:text-green-500 mr-4"><FontAwesomeIcon icon={ faGithubSquare } /></a>
+                                <a href="https://www.linkedin.com/in/nadia-nicolas-flores-089ba695/" target="_blank" rel="noreferrer" className="text-white inline-block hover:text-green-500 mr-4"><FontAwesomeIcon icon={ faGithubSquare } /></a>
                             </div>
                             <div>
-                                <a href="mailto:nadia@gmail.com" className="text-white inline-block hover:text-green-500 mr-4"><FontAwesomeIcon icon={ faEnvelopeSquare } /></a>
+                                <a href="mailto:nadianic.flores@gmail.com" target="_blank" rel="noreferrer" className="text-white inline-block hover:text-green-500 mr-4"><FontAwesomeIcon icon={ faEnvelopeSquare } /></a>
                             </div>
                         </div>
                     </div>

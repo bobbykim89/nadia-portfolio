@@ -22,28 +22,42 @@ export default function Demo() {
                     </span>
                 </div>
                 <div className="flex flex-wrap mx-auto">
-                    <div className="flex w-full md:w-7/12 items-center justify-center pb-3" data-aos="fade-right">
+                    <div className="flex w-full md:w-7/12 items-center justify-center py-6" data-aos="fade-right">
                         <ReactPlayer
                             vimeo
                             controls
-                            url="https://vimeo.com/566610997"
+                            url="https://vimeo.com/574944862"
                             width="100%"
                         />
                     </div>
                     <div className="flex w-5/6 md:w-1/3 mx-auto md:ml-6 flex-col items-center justify-center" data-aos="fade-up">
                         <h4 className="text-3xl mb-6 tracking-wider">
-                            Example Video: Video Name
+                            Compositing Reel
                         </h4>
                         <hr className="w-5/6 border-1 mb-6" />
                         <p className="text-justify">
-                            Computering: Tober<br></br>
-                            Sound Waves: Ben Goodall<br></br>
-                            Additional assets: Leto Meade, Jim Cheetham, Matt Taylor, Anita Gill, Linyou Xie, Michelle Brand<br></br>
-                            GAN animation: Erik Lintunen<br></br>
-                            Thanks to all Å(u)berg people and RCA Animation 2019 With thanks to Neville Astley, Phil Davies, and The Elf Factory LTD<br></br>
-                            MA Graduation Film, Royal College of Art<br></br>
+                            Thank you for watching. Copyright © Nadia Nicolas Flores
                         </p>
-                        <a href="#cv" target="_blank" className="bg-transparent hover:bg-yellow-500 text-yellow-500 font-bold hover:text-white py-2 px-4 border-2 border-yellow-500 hover:border-transparent rounded inline-block mt-5">
+                    </div>
+                </div>
+                <div className="flex flex-wrap mx-auto">
+                    <div className="flex w-full md:w-7/12 items-center justify-center py-6" data-aos="fade-right">
+                        <ReactPlayer
+                            vimeo
+                            controls
+                            url="https://vimeo.com/574950647"
+                            width="100%"
+                        />
+                    </div>
+                    <div className="flex w-5/6 md:w-1/3 mx-auto md:ml-6 flex-col items-center justify-center" data-aos="fade-up">
+                        <h4 className="text-3xl mb-6 tracking-wider">
+                            Animation Reel
+                        </h4>
+                        <hr className="w-5/6 border-1 mb-6" />
+                        <p className="text-justify">
+                            Thank you for watching. Copyright © Nadia Nicolas Flores
+                        </p>
+                        <a href="https://vimeo.com/user38033073" target="_blank" rel="noreferrer" className="bg-transparent hover:bg-yellow-500 text-yellow-500 font-bold hover:text-white py-2 px-4 border-2 border-yellow-500 hover:border-transparent rounded inline-block mt-5">
                             <FontAwesomeIcon className="mr-2" icon={ faVimeoV } />My Vimeo Profile
                         </a>
                     </div>
