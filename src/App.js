@@ -8,9 +8,9 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <main className="">
-      <Navbar />
+    <main className=''>
       <Hero />
+      <Navbar />
       <About />
       <Skills />
       <Demo />

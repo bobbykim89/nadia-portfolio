@@ -1,30 +1,25 @@
 import React from 'react'
-import landing from './imgs/landing.jpg';
+import landing from './imgs/LOGO_NAD.svg';
 
 export default function Hero() {
 
     return (
         <section id="Home">
-            <div className="relative pt-16 pb-16 flex content-center items-end lg:items-center justify-center"
+            <div className="relative bg-black text-white pt-16 pb-16 flex content-center items-end lg:items-center justify-center"
                 style={{
-                    minHeight: "85vh"
+                    minHeight: "70vh"
                 }}>
-                <div className="absolute w-full h-full top-0 bg-fixed bg-top bg-cover" style={{ backgroundImage: `url(${landing})` }}>
-                    <span className="w-full h-full absolute opacity-20 bg-yellow-300" />
-                </div>
-                <div className="container relative mx-auto">
+                <div className="container relative mx-auto text-center">
+                    <div className="w-1/3 inline-block">
+                        <img src={ landing } alt="logo-img" />
+                    </div>
                     <div className="items-center flex flex-wrap">
-                        <div className="w-5/6 lg:w-6/12 px-4 ml-auto mr-auto text-center p-6 bg-red-200 bg-opacity-75 rounded">
+                        <div className="mx-auto my-8 text-center">
                             <div>
-                                <h1 className="text-white font-bold text-4xl md:text-5xl">
-                                    Hi! I'm Nadia, a <span className="text-green-600">VFX</span> Engineer!
+                                <h1 className="text-white font-bold text-4xl md:text-5xl pb-3 tracking-wider">
+                                    NADIA NICOLAS
                                 </h1>
-                                <p className="mt-4 text-lg text-red-500 font-semibold ">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, ad dolorum assumenda quam fugiat molestiae vitae magni eos officiis hic ratione dignissimos explicabo quibusdam, minima perferendis. Nobis velit molestias culpa?
-                                </p>
-                                <a href="#cv" target="_blank" className="bg-transparent hover:bg-green-700 text-green-700 font-bold hover:text-white py-2 px-4 border border-green-700 hover:border-transparent rounded inline-block mt-5">
-                                    Here is My Resume
-                                </a>
+                                <p className="text-xl tracking-wider">VFX ARTIST</p>
                             </div>
                         </div>
                     </div>

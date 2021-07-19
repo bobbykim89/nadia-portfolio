@@ -1,9 +1,14 @@
 import React from 'react';
-import { Progress } from 'semantic-ui-react';
-import { faPhotoVideo, faCode, faEdit, faGlobeEurope, faGlobeAmericas, faGlobeAsia } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import maya from './imgs/software/maya.png';
+import ae from './imgs/software/after-effect.png';
+import ai from './imgs/software/illustrator.png';
+import pr from './imgs/software/premiere.png';
+import ps from './imgs/software/photoshop.png';
+import sp from './imgs/software/sp.png';
+import nuke from './imgs/software/nuke.png';
+import zbush from './imgs/software/zbrush.png';
 
 export default function Skills () {
     AOS.init({
@@ -14,89 +19,39 @@ export default function Skills () {
     });
 
     return (
-        <section id="Skills" className="relative py-20 bg-purple-100">
-            <div className="mx-auto px-4 w-4/5 md:w-1/3">
+        <section id="Skills" className="relative py-20 text-black bg-white border-black border-8 md:border-20">
+            <div className="mx-auto px-4 w-4/5 md:w-3/5">
                 <div>
-                    <span className="flex justify-center mb-8">
-                        <h2 className="font-semibold text-4xl tracking-widest uppercase text-blue-500">Skills</h2>
+                    <span className="flex justify-start mb-8">
+                        <h2 className="font-semibold text-4xl tracking-widest uppercase">Software</h2>
                     </span>
                 </div>
-                <div className="px-4 py-6 mb-4 bg-purple-400 hover:bg-purple-300 hover:border-4 rounded shadow-xl" data-aos='fade-up'>
-                    <div className="flex items-center justify-center pb-3">
-                        <span className="font-semibold text-3xl inline-block py-3 mr-3 text-indigo-500">
-                            <FontAwesomeIcon icon={ faPhotoVideo } />
-                        </span>
-                        <div>
-                            <h4 className="text-3xl leading-relaxed">Autodesk Maya</h4>
-                        </div>
+                <div className="flex flex-wrap justify-center item-center" data-aos="zoom-in">
+                    <div className="inline-block w-auto mx-4 my-4">
+                        <img src={ maya } alt="" className="max-h-20" />
                     </div>
-                    <div>
-                        <Progress percent={ 90 } indicating />
+                    <div className="inline-block w-auto mx-4 my-4">
+                        <img src={ ae } alt="" className="max-h-20" />
                     </div>
-                </div>
-                <div className="px-4 py-6 mb-4 bg-purple-400 hover:bg-purple-300 hover:border-4 rounded shadow-xl" data-aos='fade-up'>
-                    <div className="flex items-center justify-center pb-3">
-                        <span className="font-semibold text-3xl inline-block py-3 mr-3 text-indigo-500">
-                            <FontAwesomeIcon icon={ faCode } />
-                        </span>
-                        <div>
-                            <h4 className="text-3xl leading-relaxed">Java</h4>
-                        </div>
+                    <div className="inline-block w-auto mx-4 my-4">
+                        <img src={ ai } alt="" className="max-h-20" />
                     </div>
-                    <div>
-                        <Progress percent={ 60 } indicating />
+                    <div className="inline-block w-auto mx-4 my-4">
+                        <img src={ pr } alt="" className="max-h-20" />
+                    </div>
+                    <div className="inline-block w-auto mx-4 my-4">
+                        <img src={ ps } alt="" className="max-h-20" />
                     </div>
                 </div>
-                <div className="px-4 py-6 mb-4 bg-purple-400 hover:bg-purple-300 hover:border-4 rounded shadow-xl" data-aos='fade-up'>
-                    <div className="flex items-center justify-center pb-3">
-                        <span className="font-semibold text-3xl inline-block py-3 mr-3 text-indigo-500">
-                            <FontAwesomeIcon icon={ faEdit } />
-                        </span>
-                        <div>
-                            <h4 className="text-3xl leading-relaxed">Adobe Creative Cloud</h4>
-                        </div>
+                <div className="flex flex-wrap justify-center item-center" data-aos="zoom-in">
+                    <div className="inline-block w-auto mx-4 my-4">
+                        <img src={ sp } alt="" className="max-h-24 md:max-h-20" />
                     </div>
-                    <div>
-                        <Progress percent={ 80 } indicating />
+                    <div className="inline-block w-auto mx-4 my-4">
+                        <img src={ nuke } alt="" className="max-h-20" />
                     </div>
-                </div>
-                <div className="px-4 py-6 mb-4 bg-purple-400 hover:bg-purple-300 hover:border-4 rounded shadow-xl" data-aos='fade-up'>
-                    <div className="flex items-center justify-center pb-3">
-                        <span className="font-semibold text-3xl inline-block py-3 mr-3 text-indigo-500">
-                            <FontAwesomeIcon icon={ faGlobeEurope } />
-                        </span>
-                        <div>
-                            <h4 className="text-3xl leading-relaxed">English</h4>
-                        </div>
-                    </div>
-                    <div>
-                        <Progress percent={ 80 } indicating />
-                    </div>
-                </div>
-                <div className="px-4 py-6 mb-4 bg-purple-400 hover:bg-purple-300 hover:border-4 rounded shadow-xl" data-aos='fade-up'>
-                    <div className="flex items-center justify-center pb-3">
-                        <span className="font-semibold text-3xl inline-block py-3 mr-3 text-indigo-500">
-                            <FontAwesomeIcon icon={ faGlobeAmericas } />
-                        </span>
-                        <div>
-                            <h4 className="text-3xl leading-relaxed">Spanish</h4>
-                        </div>
-                    </div>
-                    <div>
-                        <Progress percent={ 100 } indicating />
-                    </div>
-                </div>
-                <div className="px-4 py-6 mb-4 bg-purple-400 hover:bg-purple-300 hover:border-4 rounded shadow-xl" data-aos='fade-up'>
-                    <div className="flex items-center justify-center pb-3">
-                        <span className="font-semibold text-3xl inline-block py-3 mr-3 text-indigo-500">
-                            <FontAwesomeIcon icon={ faGlobeAsia } />
-                        </span>
-                        <div>
-                            <h4 className="text-3xl leading-relaxed">Korean</h4>
-                        </div>
-                    </div>
-                    <div>
-                        <Progress percent={ 50 } indicating />
+                    <div className="inline-block w-auto mx-4 my-4">
+                        <img src={ zbush } alt="" className="max-h-20" />
                     </div>
                 </div>
             </div>
