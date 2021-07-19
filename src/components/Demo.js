@@ -39,14 +39,14 @@ export default function Demo() {
                     </span>
                 </div>
                 <div className="flex flex-wrap mx-auto justify-center">
-                    <div className="flex w-screen block md:w-5/6 items-center md:mb-6" data-aos="fade-right">
+                    <div className="flex w-full block md:w-5/6 items-center md:mb-6" data-aos="fade-right">
                         <ReactPlayer
                             controls
                             url="https://vimeo.com/574944862"
                             width="100%"
                         />
                     </div>
-                    <div className="flex w-screen block md:w-5/6 items-center justify-center" data-aos="fade-right">
+                    <div className="flex w-full block md:w-5/6 items-center justify-center" data-aos="fade-right">
                         <ReactPlayer
                             controls
                             url="https://vimeo.com/574950647"

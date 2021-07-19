@@ -30,7 +30,7 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                    <div className="inline-block flex flex-wrap w-full md:w-3/5 mx-auto md:pl-14 md:border-l-4 border-black mb-8 justify-center" data-aos='fade-left'>
+                    <div className="inline-block flex flex-wrap w-full md:w-3/5 mx-auto md:pl-14 md:border-l-4 border-black mb-8 justify-center" data-aos='fade-up'>
                         <img src={ `${ profile }` } alt="Profile" className="max-w-sm md:max-w-full rounded-lg shadow-lg" />
                     </div>
                 </div>
