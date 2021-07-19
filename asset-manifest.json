@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nadia-portfolio/static/css/main.bcacc21d.chunk.css",
-    "main.js": "/nadia-portfolio/static/js/main.893717b2.chunk.js",
-    "main.js.map": "/nadia-portfolio/static/js/main.893717b2.chunk.js.map",
+    "main.js": "/nadia-portfolio/static/js/main.a7818dad.chunk.js",
+    "main.js.map": "/nadia-portfolio/static/js/main.a7818dad.chunk.js.map",
     "runtime-main.js": "/nadia-portfolio/static/js/runtime-main.debeefe8.js",
     "runtime-main.js.map": "/nadia-portfolio/static/js/runtime-main.debeefe8.js.map",
     "static/css/2.3d304b90.chunk.css": "/nadia-portfolio/static/css/2.3d304b90.chunk.css",
@@ -30,6 +30,6 @@
     "static/css/2.3d304b90.chunk.css",
     "static/js/2.f68d3149.chunk.js",
     "static/css/main.bcacc21d.chunk.css",
-    "static/js/main.893717b2.chunk.js"
+    "static/js/main.a7818dad.chunk.js"
   ]
 }
