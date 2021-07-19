@@ -1,26 +1,35 @@
 {
   "files": {
-    "main.css": "/nadia-portfolio/static/css/main.68360371.chunk.css",
-    "main.js": "/nadia-portfolio/static/js/main.a4812de9.chunk.js",
-    "main.js.map": "/nadia-portfolio/static/js/main.a4812de9.chunk.js.map",
+    "main.css": "/nadia-portfolio/static/css/main.bcacc21d.chunk.css",
+    "main.js": "/nadia-portfolio/static/js/main.893717b2.chunk.js",
+    "main.js.map": "/nadia-portfolio/static/js/main.893717b2.chunk.js.map",
     "runtime-main.js": "/nadia-portfolio/static/js/runtime-main.debeefe8.js",
     "runtime-main.js.map": "/nadia-portfolio/static/js/runtime-main.debeefe8.js.map",
     "static/css/2.3d304b90.chunk.css": "/nadia-portfolio/static/css/2.3d304b90.chunk.css",
-    "static/js/2.e0677d60.chunk.js": "/nadia-portfolio/static/js/2.e0677d60.chunk.js",
-    "static/js/2.e0677d60.chunk.js.map": "/nadia-portfolio/static/js/2.e0677d60.chunk.js.map",
+    "static/js/2.f68d3149.chunk.js": "/nadia-portfolio/static/js/2.f68d3149.chunk.js",
+    "static/js/2.f68d3149.chunk.js.map": "/nadia-portfolio/static/js/2.f68d3149.chunk.js.map",
     "index.html": "/nadia-portfolio/index.html",
     "static/css/2.3d304b90.chunk.css.map": "/nadia-portfolio/static/css/2.3d304b90.chunk.css.map",
-    "static/css/main.68360371.chunk.css.map": "/nadia-portfolio/static/css/main.68360371.chunk.css.map",
-    "static/js/2.e0677d60.chunk.js.LICENSE.txt": "/nadia-portfolio/static/js/2.e0677d60.chunk.js.LICENSE.txt",
+    "static/css/main.bcacc21d.chunk.css.map": "/nadia-portfolio/static/css/main.bcacc21d.chunk.css.map",
+    "static/js/2.f68d3149.chunk.js.LICENSE.txt": "/nadia-portfolio/static/js/2.f68d3149.chunk.js.LICENSE.txt",
+    "static/media/LOGO_NAD.32c3d7f7.svg": "/nadia-portfolio/static/media/LOGO_NAD.32c3d7f7.svg",
+    "static/media/about.bcce4595.jpg": "/nadia-portfolio/static/media/about.bcce4595.jpg",
     "static/media/semantic.min.css": "/nadia-portfolio/static/media/outline-icons.ddae9b1b.woff",
-    "static/media/landing.ca966d27.jpg": "/nadia-portfolio/static/media/landing.ca966d27.jpg",
-    "static/media/profileimg.3e3de3eb.jpg": "/nadia-portfolio/static/media/profileimg.3e3de3eb.jpg"
+    "static/media/disney.be3c19ec.png": "/nadia-portfolio/static/media/disney.be3c19ec.png",
+    "static/media/illustrator.0ddaa4e1.png": "/nadia-portfolio/static/media/illustrator.0ddaa4e1.png",
+    "static/media/maya.a0f0af31.png": "/nadia-portfolio/static/media/maya.a0f0af31.png",
+    "static/media/nuke.0070ab63.png": "/nadia-portfolio/static/media/nuke.0070ab63.png",
+    "static/media/photoshop.f4440eed.png": "/nadia-portfolio/static/media/photoshop.f4440eed.png",
+    "static/media/puss-in-boots.2c3e7569.jpg": "/nadia-portfolio/static/media/puss-in-boots.2c3e7569.jpg",
+    "static/media/sp.d0b259c2.png": "/nadia-portfolio/static/media/sp.d0b259c2.png",
+    "static/media/wow.0d79ec07.png": "/nadia-portfolio/static/media/wow.0d79ec07.png",
+    "static/media/zbrush.dcefac9f.png": "/nadia-portfolio/static/media/zbrush.dcefac9f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.debeefe8.js",
     "static/css/2.3d304b90.chunk.css",
-    "static/js/2.e0677d60.chunk.js",
-    "static/css/main.68360371.chunk.css",
-    "static/js/main.a4812de9.chunk.js"
+    "static/js/2.f68d3149.chunk.js",
+    "static/css/main.bcacc21d.chunk.css",
+    "static/js/main.893717b2.chunk.js"
   ]
 }
