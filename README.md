@@ -2,6 +2,10 @@
 
 The project is deployed on [Link](https://nadiavfx.com).
 
+## Note
+
+Got image work files, and working on adding modal and image carousel.
+
 ## Used Dependencies
 
 Tailwind CSS\
