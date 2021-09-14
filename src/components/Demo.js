@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import ReactPlayer from 'react-player';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import ImgList from '../data/ImgList';
 import ImageGrid from './layouts/ImageGrid';
+import { ImageContext } from '../context/ImageContext';
 
 export default function Demo() {
   AOS.init({
@@ -12,6 +12,9 @@ export default function Demo() {
     once: false,
     easing: 'ease',
   });
+
+  const imageContext = useContext(ImageContext);
+  const { setCurrent, images } = imageContext;
 
   return (
     <section id='Demo' className='relative py-20 bg-black text-white text-lg'>
@@ -23,9 +26,11 @@ export default function Demo() {
             </h2>
           </span>
         </div>
-        <div className='grid grid-flow-row grid-cols-5 gap-3 my-20'>
-          {ImgList &&
-            ImgList.map((image) => <ImageGrid image={image} key={image.id} />)}
+        <div className='grid grid-flow-row lg:grid-cols-5 gap-3 my-20'>
+          {images &&
+            images.map((image) => (
+              <ImageGrid image={image} key={image.id} setCurrent={setCurrent} />
+            ))}
         </div>
         <div className='mt-12'>
           <span className='flex justify-start mb-8'>
