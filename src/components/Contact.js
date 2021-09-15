@@ -5,37 +5,33 @@ import {
   faLinkedin,
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
 
 export default function Contact() {
   return (
     <section className='text-white' id='Contact'>
-      <div
-        className='relative pt-16 pb-16 flex content-center bg-black md:items-center justify-center'
-        style={{ minHeight: '40vh' }}
-      >
-        <div className='relative container flex flex-col md:flex-row justify-center'>
-          <div className='mx-auto'>
-            <h3 className='font-bold text-5xl tracking-wider text-center mb-6'>
-              Contact
+      <div className='flex content-center bg-black md:items-center justify-center min-h-[40vh]'>
+        <div className='container flex flex-col md:flex-row justify-center items-stretch'>
+          <div className='mx-auto justify-center text-center'>
+            <h3 className='font-bold text-5xl tracking-wider text-center mb-2'>
+              CONTACT
             </h3>
-            <div className='relative flex flex-wrap text-5xl font-bold justify-center'>
-              <div>
-                <a
-                  href='mailto:nadianic.flores@gmail.com'
-                  target='_blank'
-                  rel='noreferrer'
-                  className='text-white inline-block hover:text-green-500 mx-4'
-                >
-                  <FontAwesomeIcon icon={faEnvelopeSquare} />
-                </a>
-              </div>
+            <span>
+              <a
+                href='mailto:nadianic.flores@gmail.com'
+                target='_blank'
+                rel='noreferrer'
+                className='text-white text-xl hover:text-green-500 transition ease-in duration-300'
+              >
+                nadianic.flores@gmail.com
+              </a>
+            </span>
+            <div className='flex flex-wrap text-5xl font-bold justify-center mt-6'>
               <div>
                 <a
                   href='https://www.linkedin.com/in/nadia-nicolas-flores-089ba695/'
                   target='_blank'
                   rel='noreferrer'
-                  className='text-white inline-block hover:text-green-500 mx-4'
+                  className='text-white inline-block hover:text-green-500 mx-4 transition ease-in duration-300'
                 >
                   <FontAwesomeIcon icon={faLinkedin} />
                 </a>
@@ -45,7 +41,7 @@ export default function Contact() {
                   href='https://www.instagram.com/nadthez/'
                   target='_blank'
                   rel='noreferrer'
-                  className='text-white inline-block hover:text-green-500 mx-4'
+                  className='text-white inline-block hover:text-green-500 mx-4 transition ease-in duration-300'
                 >
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
@@ -55,7 +51,7 @@ export default function Contact() {
                   href='https://vimeo.com/user38033073'
                   target='_blank'
                   rel='noreferrer'
-                  className='text-white inline-block hover:text-green-500 mx-4'
+                  className='text-white inline-block hover:text-green-500 mx-4 transition ease-in duration-300'
                 >
                   <FontAwesomeIcon icon={faVimeo} />
                 </a>

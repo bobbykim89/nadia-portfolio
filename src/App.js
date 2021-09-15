@@ -11,14 +11,15 @@ import Modal from './components/layouts/Modal';
 function App() {
   return (
     <ImageState>
-      <div className='bg-black'>
+      <div className='bg-black font-inter'>
         <Hero />
         <Navbar />
+
         <About />
         <Skills />
         <Demo />
-        <Contact />
         <Modal />
+        <Contact />
       </div>
     </ImageState>
   );

@@ -13,6 +13,8 @@ autoprefixer\
 postcss\
 hamburger-react\
 react-helmet-async\
+framer-motion\
+react-responsive-carousel
 
 ### Dev Dependencies
 

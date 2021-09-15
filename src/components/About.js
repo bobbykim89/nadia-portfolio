@@ -37,7 +37,7 @@ export default function About() {
                   <a
                     href='#cv'
                     target='_blank'
-                    className='bg-transparent hover:bg-black text-black font-bold hover:text-white py-2 px-4 border-2 border-black hover:border-transparent rounded inline-block mt-5'
+                    className='bg-transparent hover:bg-black text-black font-bold hover:text-white py-2 px-4 border-2 border-black hover:border-transparent rounded inline-block mt-5 transition ease-in duration-300'
                   >
                     Here is My Resume
                   </a>
@@ -52,7 +52,7 @@ export default function About() {
             <img
               src={`${profile}`}
               alt='Profile'
-              className='max-w-sm md:max-w-full rounded-lg shadow-lg'
+              className='max-w-sm md:max-w-full rounded-lg shadow-xl'
             />
           </div>
         </div>

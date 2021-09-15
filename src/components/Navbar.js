@@ -6,6 +6,11 @@ import Hamburger from 'hamburger-react';
 export default function Navbar() {
   const [navBarOpen, setNavbarOpen] = useState(false);
 
+  const toTop = (e) => {
+    e.preventDefault();
+    window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+  };
+
   return (
     <nav className='w-screen top-0 absolute sticky items-center bg-black z-50'>
       <div className='container items-center mx-auto md:py-4 justify-between'>
@@ -33,15 +38,16 @@ export default function Navbar() {
           }
         >
           <div className='flex pt-3 pb-4 md:pb-0 md:pt-1 md:flex-grow text-center justify-center'>
-            <a
-              href='#Home'
+            <div
               className='hidden md:block md:inline-block md:mx-auto text-white text-md md:text-xl hover:text-yellow-100 mr-4'
+              onClick={toTop}
             >
               <FontAwesomeIcon icon={faHome} />
-            </a>
+            </div>
             <a
               href='#About'
               className='block md:inline-block md:mx-auto text-white text-md md:text-xl hover:text-yellow-100 mr-4'
+              onClick={() => setNavbarOpen(false)}
             >
               ABOUT
             </a>
@@ -51,6 +57,7 @@ export default function Navbar() {
             <a
               href='#Skills'
               className='block md:inline-block md:mx-auto text-white text-md md:text-xl hover:text-yellow-100 mr-4'
+              onClick={() => setNavbarOpen(false)}
             >
               SOFTWARE
             </a>
@@ -60,6 +67,7 @@ export default function Navbar() {
             <a
               href='#Demo'
               className='block md:inline-block md:mx-auto text-white text-md md:text-xl hover:text-yellow-100 mr-4'
+              onClick={() => setNavbarOpen(false)}
             >
               WORKS
             </a>
@@ -69,6 +77,7 @@ export default function Navbar() {
             <a
               href='#Contact'
               className='block md:inline-block md:mx-auto text-white text-md md:text-xl hover:text-yellow-100 mr-4'
+              onClick={() => setNavbarOpen(false)}
             >
               CONTACT
             </a>

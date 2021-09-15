@@ -1,7 +1,7 @@
 import React, { createContext, useReducer } from 'react';
 import imageReducer from './imageReducer';
 import ImgList from '../data/ImgList';
-import { CLEAR_CURRENT, GET_IMAGES, SET_CURRENT } from './types';
+import { CLEAR_CURRENT, SET_CURRENT } from './types';
 
 export const ImageContext = createContext();
 

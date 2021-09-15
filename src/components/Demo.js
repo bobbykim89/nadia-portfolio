@@ -18,8 +18,8 @@ export default function Demo() {
 
   return (
     <section id='Demo' className='relative py-20 bg-black text-white text-lg'>
-      <div className='container w-11/12 md:w-3/5 mx-auto items-center'>
-        <div>
+      <div className='mx-3 items-center'>
+        <div className='container w-11/12 md:w-3/5 mx-auto items-center'>
           <span className='flex justify-start mb-8'>
             <h2 className='font-semibold text-4xl tracking-widest uppercase'>
               Digital work
@@ -32,6 +32,8 @@ export default function Demo() {
               <ImageGrid image={image} key={image.id} setCurrent={setCurrent} />
             ))}
         </div>
+      </div>
+      <div className='container w-11/12 md:w-3/5 mx-auto items-center'>
         <div className='mt-12'>
           <span className='flex justify-start mb-8'>
             <h2 className='font-semibold text-4xl tracking-widest uppercase'>
@@ -41,12 +43,19 @@ export default function Demo() {
         </div>
         <div className='flex flex-wrap mx-auto justify-center'>
           <div
-            className='flex w-full block md:w-5/6 items-center md:mb-6'
+            className='flex w-full block md:w-5/6 items-center md:mb-8'
             data-aos='fade-right'
           >
             <ReactPlayer
               controls={true}
-              url={'https://vimeo.com/574944862'}
+              config={{
+                vimeo: {
+                  playerOptions: {
+                    allow: 'fullscreen',
+                  },
+                },
+              }}
+              url={'https://player.vimeo.com/video/574944862'}
               width='100%'
             />
           </div>
@@ -56,7 +65,14 @@ export default function Demo() {
           >
             <ReactPlayer
               controls={true}
-              url={'https://vimeo.com/574950647'}
+              config={{
+                vimeo: {
+                  playerOptions: {
+                    allow: 'fullscreen',
+                  },
+                },
+              }}
+              url={'https://player.vimeo.com/video/574950647'}
               width='100%'
             />
           </div>
