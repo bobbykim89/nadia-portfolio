@@ -14,13 +14,23 @@ postcss\
 hamburger-react\
 react-helmet-async\
 framer-motion\
-react-responsive-carousel
+react-responsive-carousel\
+fontAwesome
 
 ### Dev Dependencies
 
 chokidar-cli\
 concurrently
 
+### CDN
+
+google font\
+material icons
+
 ### `npm run dev`
 
 Launches the app and visible on http://localhost:3000 [Link](http://localhost:3000)
+
+### `npm run watch:css`
+
+watches css and updates index.css file as required
