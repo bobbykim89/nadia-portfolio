@@ -15,10 +15,7 @@ function App() {
       <ImageState>
         <Helmet>
           <title>Nadia VFX</title>
-          <meta
-            name='description'
-            content='Nadia Nicolas Flores, VFX Artist.'
-          />
+          <meta name='description' content='Nadia Nicolas, VFX Artist.' />
         </Helmet>
         <div className='bg-black font-inter'>
           <Hero />
